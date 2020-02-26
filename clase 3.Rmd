@@ -1,0 +1,77 @@
+---
+title: "Clase 3"
+author: "Alejandro"
+date: "26/2/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+c(1,2,3)
+bolas = c(rep("rojas",3), rep("azul",5), rep("negro", 9))
+
+año = c(rep(2001, 10))
+
+vec = c(16, 0, 1, 20, 1, 88, 5, 1, 9 )
+
+seq(1, 20, 1)
+
+seq(2, 40, 2)
+
+round(seq(17, 98, length.out = 30))
+
+x = 1:10
+
+sin(x)
+
+sapply(x, FUN = sin)
+
+sapply(x, FUN = sqrt)
+
+length(x)
+
+max(x)
+
+min(x)
+
+sum(x)
+
+mean(x)
+
+diff(x)
+
+cumsum(x)
+
+
+funcion = function(x){(x^2-1)/(x^2+1)}
+
+sapply(x, FUN = funcion)
+
+rev(sort(x))
+
+x[6]
+
+x[3:8]
+
+x[-3]
+
+x[-(3:5)]
+
+which.min(x)
+
+which(x == min(x))
+
+which.max(x)
+
+which(x == max(x))
+
+
+
+
+
+
+```
+
